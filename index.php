@@ -16,7 +16,7 @@
 
 		$p1 = new Person(1,2);
 
-		echo "{$p1}";
+		echo "check";
 
 
 	
@@ -24,4 +24,3 @@
 
 	   ?>
 
-	   
