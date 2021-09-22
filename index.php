@@ -1,26 +1,25 @@
-<?php
-	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<?php 
+		$is_auth = mt_rand(0,1);
+		$user_name = "Andrew";
 
-		class Person{
-			private $x;
-			private $y;
+	 
+		if ($is_auth) {
+			
+	?>
+	<div class="user-menu_image">
+		<img src="$is_auth" alt="user" width="40" height="40">
+	</div>	
+	<div>
+		<p></p>
+	</div>
 
-			function __construct($x=0,$y=0){
-				$this->x=$x;
-				$this->y=$y;
-			}
-			function __toString (){
-				return "({$this->x}, {$this->y})";
-			}
-		}
-
-		$p1 = new Person(1,2);
-
-		echo "check";
-
-
-	
-
-
-	   ?>
-
+</body>
+</html>
