@@ -7,7 +7,7 @@
 </head>
 <body>
 	<?php 
-		$is_auth = mt_rand(0,1);
+		$is_auth = mt_rand(0,2);
 		$user_name = "Andrew";
 
 	 
